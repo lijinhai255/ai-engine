@@ -1,0 +1,24 @@
+packages/ai-engine/src/knowledge/__tests__/qdrant-store-unit.test.ts
+  s_1293e0be32b9c8::t_c8477a05c9ab95 1-23,28-58
+  s_1293e0be32b9c8::t_db6993f282d109 24-27
+packages/ai-engine/src/knowledge/store/qdrant-store.ts
+  s_1293e0be32b9c8::t_c59c6b5010cfc0 163-164,179
+packages/ai-engine/tsconfig.json
+  s_1293e0be32b9c8::t_497a7a1cb52446 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "298e6a39f2ffc60e0a2b33de7dd1b3ff39367de8",
+  "prompts": {},
+  "sessions": {
+    "s_1293e0be32b9c8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00a18-f346-7d32-ac19-d2ca36bedbcf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
