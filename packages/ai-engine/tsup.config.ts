@@ -5,25 +5,25 @@
  */
 import { defineConfig } from 'tsup'
 
+const shared = {
+    entry: ['src/index.ts'],
+    bundle: true,
+    clean: false,
+    dts: true,
+    minify: true,
+    sourcemap: true,
+}
+
 export default defineConfig([
     {
-        entry: ['src/index.ts'],
+        ...shared,
         format: ['esm'],
-        sourcemap: true,
-        bundle: true,
-        dts: true,
-        clean: true,
-        minify: true,
         outDir: 'build/esm',
     },
     {
-        entry: ['src/index.ts'],
+        ...shared,
         format: ['cjs'],
-        sourcemap: true,
-        bundle: true,
-        dts: true,
-        clean: true,
-        minify: true,
         outDir: 'build/cjs',
+        outExtension: () => ({ js: '.cjs' }),
     },
 ])
