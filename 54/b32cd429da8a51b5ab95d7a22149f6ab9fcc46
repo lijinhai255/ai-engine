@@ -1,0 +1,25 @@
+packages/ai-engine/src/models/__tests__/ark-chat-client.test.ts
+  s_1293e0be32b9c8::t_2df98129809bec 1-4,6-22
+  s_1293e0be32b9c8::t_5c1f52d27b03bf 5
+packages/ai-engine/src/models/ark-chat-client.ts
+  s_1293e0be32b9c8::t_fa62f1a8027c2e 1-50
+packages/ai-engine/src/models/index.ts
+  s_1293e0be32b9c8::t_df010f36fade43 2
+  s_1293e0be32b9c8::t_fa62f1a8027c2e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "54b32cd429da8a51b5ab95d7a22149f6ab9fcc46",
+  "prompts": {},
+  "sessions": {
+    "s_1293e0be32b9c8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00a18-f346-7d32-ac19-d2ca36bedbcf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
