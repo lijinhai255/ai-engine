@@ -1,0 +1,214 @@
+packages/ai-engine/src/index.ts
+  h_5f5ffcaf44771b 1-2,4-31
+packages/ai-engine/src/types/node.ts
+  h_5f5ffcaf44771b 1-230
+packages/ai-engine/src/package.json
+  h_5f5ffcaf44771b 1-38
+packages/ai-engine/src/types/index.ts
+  h_5f5ffcaf44771b 1-9
+.cspell/custom-words.txt
+  h_5f5ffcaf44771b 1,3,5-6
+.gitignore
+  h_5f5ffcaf44771b 84
+apps/api-server/.dockerignore
+  h_5f5ffcaf44771b 1-34
+apps/api-server/.gitignore
+  h_5f5ffcaf44771b 1-58
+apps/api-server/Dockerfile
+  h_5f5ffcaf44771b 1-54
+apps/api-server/README.md
+  h_5f5ffcaf44771b 1-98
+apps/api-server/nest-cli.json
+  h_5f5ffcaf44771b 1-8
+apps/api-server/package.json
+  h_5f5ffcaf44771b 3-7,9-14,16-34
+apps/api-server/prisma.config.ts
+  h_5f5ffcaf44771b 1-15
+apps/api-server/prisma/migrations/20260110074932_add_app/migration.sql
+  h_5f5ffcaf44771b 1-21
+apps/api-server/prisma/migrations/migration_lock.toml
+  h_5f5ffcaf44771b 1-3
+apps/api-server/prisma/schema.prisma
+  h_5f5ffcaf44771b 1-36
+apps/api-server/src/app.controller.ts
+  h_5f5ffcaf44771b 1-22
+apps/api-server/src/app.module.ts
+  h_5f5ffcaf44771b 1-14
+apps/api-server/src/app.service.ts
+  h_5f5ffcaf44771b 1-24
+apps/api-server/src/main.ts
+  h_5f5ffcaf44771b 1-8
+apps/api-server/src/prisma/prisma.module.ts
+  h_5f5ffcaf44771b 1-16
+apps/api-server/src/prisma/prisma.service.ts
+  h_5f5ffcaf44771b 1-38
+apps/api-server/tsconfig.build.json
+  h_5f5ffcaf44771b 1-4
+apps/api-server/tsconfig.json
+  h_5f5ffcaf44771b 1-22
+apps/workflow/README.md
+  h_5f5ffcaf44771b 1-36
+apps/workflow/app/flow/page.tsx
+  h_5f5ffcaf44771b 1-5
+apps/workflow/app/globals.css
+  h_5f5ffcaf44771b 1-31
+apps/workflow/app/layout.tsx
+  h_5f5ffcaf44771b 1-34
+apps/workflow/app/page.tsx
+  h_5f5ffcaf44771b 1-65
+apps/workflow/app/variable/page.tsx
+  h_5f5ffcaf44771b 1-5
+apps/workflow/components/flow/index.tsx
+  h_5f5ffcaf44771b 1-48
+apps/workflow/components/variable-editor/index.tsx
+  h_5f5ffcaf44771b 1-18
+apps/workflow/components/variable-editor/slash-command.ts
+  h_5f5ffcaf44771b 1-47
+apps/workflow/next.config.ts
+  h_5f5ffcaf44771b 1-7
+apps/workflow/package.json
+  h_5f5ffcaf44771b 2-30
+apps/workflow/pnpm-lock.yaml
+  h_5f5ffcaf44771b 1-4008
+apps/workflow/postcss.config.mjs
+  h_5f5ffcaf44771b 1-7
+apps/workflow/public/file.svg
+  h_5f5ffcaf44771b 1
+apps/workflow/public/globe.svg
+  h_5f5ffcaf44771b 1
+apps/workflow/public/next.svg
+  h_5f5ffcaf44771b 1
+apps/workflow/public/vercel.svg
+  h_5f5ffcaf44771b 1
+apps/workflow/public/window.svg
+  h_5f5ffcaf44771b 1
+apps/workflow/tsconfig.json
+  h_5f5ffcaf44771b 1-34
+docker/caddy/conf/Caddyfile
+  h_5f5ffcaf44771b 1-4
+docker/caddy/start.sh
+  h_5f5ffcaf44771b 1
+docker/docker-compose.yml
+  h_5f5ffcaf44771b 1-42
+notes.md
+  h_5f5ffcaf44771b 1
+package.json
+  h_5f5ffcaf44771b 6-7
+packages/ai-engine/src/core/context.ts
+  h_5f5ffcaf44771b 1-92
+packages/ai-engine/src/core/engine.ts
+  h_5f5ffcaf44771b 1-269
+packages/ai-engine/src/core/graph-builder.ts
+  h_5f5ffcaf44771b 1-315
+packages/ai-engine/src/core/index.ts
+  h_5f5ffcaf44771b 1-12
+packages/ai-engine/src/core/variable-resolver.ts
+  h_5f5ffcaf44771b 1-278
+packages/ai-engine/src/knowledge/__tests__/markdown-splitter.test.ts
+  h_5f5ffcaf44771b 1-213
+packages/ai-engine/src/knowledge/__tests__/qdrant-store.test.ts
+  h_5f5ffcaf44771b 1-259
+packages/ai-engine/src/knowledge/__tests__/retriever.test.ts
+  h_5f5ffcaf44771b 1-344
+packages/ai-engine/src/knowledge/__tests__/text-splitter.test.ts
+  h_5f5ffcaf44771b 1-155
+packages/ai-engine/src/knowledge/chunking/index.ts
+  h_5f5ffcaf44771b 1-8
+packages/ai-engine/src/knowledge/chunking/markdown-splitter.ts
+  h_5f5ffcaf44771b 1-215
+packages/ai-engine/src/knowledge/chunking/text-splitter.ts
+  h_5f5ffcaf44771b 1-100
+packages/ai-engine/src/knowledge/embeddings/index.ts
+  h_5f5ffcaf44771b 1-7
+packages/ai-engine/src/knowledge/embeddings/ollama-embeddings.ts
+  h_5f5ffcaf44771b 1-95
+packages/ai-engine/src/knowledge/index.ts
+  h_5f5ffcaf44771b 1-21
+packages/ai-engine/src/knowledge/retriever/hybrid-retriever.ts
+  h_5f5ffcaf44771b 1-194
+packages/ai-engine/src/knowledge/retriever/index.ts
+  h_5f5ffcaf44771b 1-9
+packages/ai-engine/src/knowledge/retriever/vector-retriever.ts
+  h_5f5ffcaf44771b 1-69
+packages/ai-engine/src/knowledge/store/index.ts
+  h_5f5ffcaf44771b 1-7
+packages/ai-engine/src/knowledge/store/qdrant-store.ts
+  h_5f5ffcaf44771b 1-352
+packages/ai-engine/src/knowledge/types.ts
+  h_5f5ffcaf44771b 1-252
+packages/ai-engine/src/logger/__tests__/execution-logger-security.test.ts
+  h_5f5ffcaf44771b 1-35
+packages/ai-engine/src/logger/__tests__/structured-log.test.ts
+  h_5f5ffcaf44771b 1-33
+packages/ai-engine/src/logger/execution-logger.ts
+  h_5f5ffcaf44771b 1-298
+packages/ai-engine/src/logger/index.ts
+  h_5f5ffcaf44771b 1-10
+packages/ai-engine/src/logger/structured-log.ts
+  h_5f5ffcaf44771b 1-42
+packages/ai-engine/src/nodes/base-executor.ts
+  h_5f5ffcaf44771b 1-111
+packages/ai-engine/src/nodes/executors/__tests__/condition-executor.test.ts
+  h_5f5ffcaf44771b 1-55
+packages/ai-engine/src/nodes/executors/__tests__/llm-executor.test.ts
+  h_5f5ffcaf44771b 1-50
+packages/ai-engine/src/nodes/executors/condition-executor.ts
+  h_5f5ffcaf44771b 1-192
+packages/ai-engine/src/nodes/executors/end-executor.ts
+  h_5f5ffcaf44771b 1-121
+packages/ai-engine/src/nodes/executors/http-executor.ts
+  h_5f5ffcaf44771b 1-196
+packages/ai-engine/src/nodes/executors/knowledge-executor.ts
+  h_5f5ffcaf44771b 1-175
+packages/ai-engine/src/nodes/executors/llm-executor.ts
+  h_5f5ffcaf44771b 1-115
+packages/ai-engine/src/nodes/executors/start-executor.ts
+  h_5f5ffcaf44771b 1-103
+packages/ai-engine/src/nodes/index.ts
+  h_5f5ffcaf44771b 1-39
+packages/ai-engine/src/nodes/registry.ts
+  h_5f5ffcaf44771b 1-68
+packages/ai-engine/src/tsconfig.json
+  h_5f5ffcaf44771b 1-4
+packages/ai-engine/src/tsup.config.ts
+  h_5f5ffcaf44771b 1-29
+packages/ai-engine/src/types/logger.ts
+  h_5f5ffcaf44771b 1-137
+packages/ai-engine/src/types/workflow.ts
+  h_5f5ffcaf44771b 1-79
+packages/ai-engine/src/validators/index.ts
+  h_5f5ffcaf44771b 1-27
+packages/ai-engine/src/validators/node-validators/condition-validator.ts
+  h_5f5ffcaf44771b 1-32
+packages/ai-engine/src/validators/node-validators/end-validator.ts
+  h_5f5ffcaf44771b 1-37
+packages/ai-engine/src/validators/node-validators/http-validator.ts
+  h_5f5ffcaf44771b 1-32
+packages/ai-engine/src/validators/node-validators/index.ts
+  h_5f5ffcaf44771b 1-12
+packages/ai-engine/src/validators/node-validators/knowledge-validator.ts
+  h_5f5ffcaf44771b 1-40
+packages/ai-engine/src/validators/node-validators/llm-validator.ts
+  h_5f5ffcaf44771b 1-32
+packages/ai-engine/src/validators/node-validators/start-validator.ts
+  h_5f5ffcaf44771b 1-49
+packages/ai-engine/src/validators/types.ts
+  h_5f5ffcaf44771b 1-38
+packages/ai-engine/src/validators/workflow-validator.ts
+  h_5f5ffcaf44771b 1-112
+packages/ai-engine/src/vitest.config.ts
+  h_5f5ffcaf44771b 1-17
+pnpm-lock.yaml
+  h_5f5ffcaf44771b 1-10055
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "10756a6e6239b87fb8648e04edcec84719ebbc77",
+  "prompts": {},
+  "humans": {
+    "h_5f5ffcaf44771b": {
+      "author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
