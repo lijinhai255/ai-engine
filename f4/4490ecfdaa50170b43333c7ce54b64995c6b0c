@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-08-16-ai-engine-build-design.md
+  s_1293e0be32b9c8::t_6e5e0a31dd57c6 1-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f44490ecfdaa50170b43333c7ce54b64995c6b0c",
+  "prompts": {},
+  "sessions": {
+    "s_1293e0be32b9c8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00a18-f346-7d32-ac19-d2ca36bedbcf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
