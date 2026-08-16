@@ -1,0 +1,30 @@
+docs/superpowers/plans/2026-08-16-ai-engine-build.md
+  s_1293e0be32b9c8::t_1cd294b8f12120 422,453,456-458
+  s_1293e0be32b9c8::t_046d5f7365f7de 122
+  s_1293e0be32b9c8::t_47eb1fd8ac74c8 1-39,41-51,53-121,123-208,210-214,216-327,329-350,352-355,357-421,423-430,432-435,437-452,454-455,459-475
+  s_38211edaae8b94::t_55e2b6774ee8c1 40,52,209,215,328,351,356,431,436
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "5ad841b81ccace91b30e5414ad84b324f6d9d381",
+  "prompts": {},
+  "sessions": {
+    "s_1293e0be32b9c8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00a18-f346-7d32-ac19-d2ca36bedbcf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    },
+    "s_38211edaae8b94": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a00a18-f346-7d32-ac19-d2ca36bedbcf",
+        "model": "unknown"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
