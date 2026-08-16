@@ -1,0 +1,24 @@
+docs/superpowers/specs/2026-08-16-ai-engine-build-repair-design.md
+  s_4026040373ba3b::t_f4c573d648aa4e 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6a6c2ef056f4645696190171cb1e6a788941336d",
+  "prompts": {},
+  "humans": {
+    "h_5f5ffcaf44771b": {
+      "author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  },
+  "sessions": {
+    "s_4026040373ba3b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00a0d-b4b2-74f1-8111-c42173409d4b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "lijinhai255 <miaomaedu@163.com>"
+    }
+  }
+}
