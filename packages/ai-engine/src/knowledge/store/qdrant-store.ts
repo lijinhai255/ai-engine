@@ -160,8 +160,8 @@ export class QdrantVectorStore implements VectorStoreService {
         }
 
         try {
-            const response = await this.client.search(this.collectionName, {
-                vector,
+            const response = await this.client.query(this.collectionName, {
+                query: vector,
                 limit: topK,
                 score_threshold: threshold,
                 filter: {
@@ -176,7 +176,7 @@ export class QdrantVectorStore implements VectorStoreService {
                 with_vector: false,
             })
 
-            return response.map(point => ({
+            return response.points.map(point => ({
                 chunkId: (point.payload?.chunkId as string) || '',
                 content: (point.payload?.content as string) || '',
                 chunkIndex: (point.payload?.chunkIndex as number) || 0,

@@ -1,5 +1,5 @@
 {
-    "extends": "../../tsconfig.json",
+    "extends": "../../tsconfig.client.json",
     "compilerOptions": {
         "rootDir": "src",
         "types": ["node", "vitest/globals"]
