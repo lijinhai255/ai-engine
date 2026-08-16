@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+    miaoma-aiflow-demo-pg:
+        # 用什么镜像
+        image: postgres:18
+        container_name: miaoma-aiflow-demo-pg
+        ports:
+            - '5438:5432'
+        # 环境变量配置
+        environment:
+            # - POSTGRES_USER=postgres
+            - POSTGRES_USER=miaoma
+            - POSTGRES_DB=postgres
+            - POSTGRES_PASSWORD=xiaoer
+        volumes:
+            - ./postgresql_data:/var/lib/postgresql
+        # 日志控制（防止日志文件爆满）
+        logging:
+            driver: 'json-file'
+            options:
+                max-size: '100m'
+                max-file: '3'
+    miaoma-aiflow-demo-qdrant:
+        image: qdrant/qdrant:v1.1.1
+        container_name: miaoma-aiflow-demo-qdrant
+        ports:
+            - '6633:6333' # 6333 是 HTTP API 端口
+            - '6634:6334' # 6334 是 gRPC 端口
+        volumes:
+            - ./qdrant_storage:/qdrant/storage
+        # 日志控制（防止日志文件爆满）
+        logging:
+            driver: 'json-file'
+            options:
+                max-size: '100m'
+                max-file: '3'
+                # 日志文件名
+networks:
+    default:
+        name: miaoma-aiflow-demo-network
+        driver: bridge
